@@ -1,5 +1,6 @@
 # TODO: Implementa el código del ejercicio aquí
 from abc import ABC, abstractmethod
+from errores import ValidadorError, NoCumpleLongitudMinimaError, NoTieneLetraMayusculaError, NoTieneLetraMinusculaError, NoTieneNumeroError, NoTieneCaracterEspecialError, NoTienePalabraSecretaError
 
 class ReglaValidacion(ABC):
     def __init__(self, longitud_esperada):
